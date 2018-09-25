@@ -1,18 +1,18 @@
 # ECE-1574-Lab-1
 This lab focuses on the following learning objectives:  Write complete C++ programs to solve engineering problems
+
 Procedure:
 This week we will be working on writing some basic C++ programs that print different messages to the screen. We will be focusing on writing simple messages to the screen. You can use the simple Hello World program as a starting point. The thing to focus on is the line containing the word cout. This tells C++ to write something to the screen. The word endl stands for end of line and will essentially print a newline or a return character. We will be getting into all the details about all of this very soon in class. Today it suffices if you can simply copy, paste and make some edits.
 
-#include <iostream>
-using std::cout;
-using std::endl;
+    #include<iostream>
+    using std::cout;
+    using std::endl;
+    
+    int main()
+    {
+        return 0;
+    }
 
-int main()
-{
-    cout << "Hello World!" << endl;
-
-    return 0;
-}
 The important part of the code above is the line cout << "Hello World!" << endl;
 cout is the standard output stream. By default it will print to the console. It will print any set of characters that appear in between the set of double quotes (""). This can contain spaces, letters, numbers, symbol. There are two special escape characters that could help with this lab. \t mean tab and \n means newline. So cout << "\tDave"; Will print out Dave with a tab, 4 or 5 spaces, before. cout << "dave\n"; Will print out Dave and then a newline character or like pressing return or enter on the keyboard. You may also use endl, that's end and letter l (ell), not a 1. endl includes both a newline character and flushed the output buffer. We'll discuss this more later.
 
